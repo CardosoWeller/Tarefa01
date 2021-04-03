@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor da Conta"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/textValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gorjeta"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/textGorjeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewGorjeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor da Gorjeta"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textViewFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor final da Conta"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dividir por quantas pessoas"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/textPessoas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textValorDivido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor final da Conta, divido pelo número de pessoas"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+</LinearLayout>
